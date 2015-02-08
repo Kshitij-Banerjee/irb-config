@@ -1,4 +1,4 @@
-GEMS = pry pry-doc awesome_print
+GEMS = pry pry-doc pry-debugger pry-stack_explorer awesome_print coderay colorize
 GEMS_NODEPS = commands rspec-console cucumber-console
 TARGETS = $(HOME)/.pryrc $(HOME)/.irbrc
 SHELL = /usr/bin/env bash

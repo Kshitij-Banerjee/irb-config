@@ -27,6 +27,8 @@ module IRB
 
     def self.load_pry_plugins
       IRB.try_require 'pry-doc'
+      IRB.try_require 'pry-debugger'
+      IRB.try_require 'pry-stack_explorer'
     end
 
     def self.trap_winchange
