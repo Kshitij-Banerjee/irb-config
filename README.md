@@ -5,7 +5,7 @@ Prerequisites: rvm or rbenv.
 
 To install, run
 
-    git clone git://github.com/nviennot/irb-config.git ~/.irb
+    git clone git://github.com/Kshitij-Banerjee/irb-config.git ~/.irb
     cd ~/.irb
     make install
 
@@ -29,6 +29,8 @@ What is it ?
 It packages:
 - [Pry](https://github.com/pry/pry)
 - [Pry Doc](https://github.com/pry/pry-doc)
+- [Pry Debugger]
+- [Pry Stack Explorer]
 - [Awesome Print](https://github.com/michaeldv/awesome_print)
 - [Commands](https://github.com/rails/commands)
 - [RSpec Console](https://github.com/nviennot/rspec-console)
